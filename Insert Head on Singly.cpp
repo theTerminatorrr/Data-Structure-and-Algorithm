@@ -13,7 +13,7 @@ class Node
     }
 };
 
-void insert_First(Node* &head, int value)
+void insert_Head(Node* &head, int value)
 {
    Node* newNode = new Node(value) ;
    newNode -> next = head;
@@ -38,12 +38,13 @@ int main()
     head -> next = a;
     a -> next = b;
 
-    insert_First(head, 100);
-    insert_First(head, 150);
-    insert_First(head, 200);
+    insert_Head (head, 100);
+    insert_Head (head, 150);
+    insert_Head (head, 200);
 
     print_List(head);
     return 0;
 
 }
+
 
