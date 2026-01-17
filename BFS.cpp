@@ -9,7 +9,6 @@ private:
     int adj [100] [100];
     bool visited[100];
 
-
 public:
     Graph(int v, bool dir)
     {
@@ -101,4 +100,5 @@ int main()
 
     return 0;
 }
+
 
