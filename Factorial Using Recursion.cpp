@@ -15,3 +15,5 @@ int main()
     cin >> n;
     cout << n << "! = " << factorial(n) << endl;
 }
+
+
